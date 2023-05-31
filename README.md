@@ -7,4 +7,5 @@ website](https://web.archive.org/web/20160505235423/http://freespace.virgin.net/
 
 ## Ripple
 A 2d simulation of water ripples. Here is a sample output:
-<video><source src="ripple/output.mp4" type="video/mp4"></video>
+![Ripple sample GIF]("./ripple/output.gif")
+
