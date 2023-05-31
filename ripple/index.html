@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Ripple Effect 2D</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+
+  <body>
+    <canvas id="canvas">
+      Your browser doesn't support canvas. There are water ripple effects here.
+    </canvas>
+
+    <p id="info"></p>
+
+    <button id="start">Start</button>
+    <button id="next">Next</button>
+    <button id="stop">Stop</button>
+    <br>
+    <label for="damping">Damping</label>
+    <input 
+      type="range" 
+      name="damping" 
+      id="damping" 
+      min=0.500 
+      max=0.999 
+      step=0.001 
+      value=0.99 />
+    <output for="damping" id="damp-out"></output>
+    <script src="src/index2.js"></script>
+  </body>
+</html>
